@@ -84,6 +84,8 @@ node morning-sign.js --token "你的Token" --point-id "点位ID"
 
 ---
 
+> 条件允许可使用pm2进行开机自启动以及定时启动等设置
+
 ## 📁 项目目录
 
 ```
