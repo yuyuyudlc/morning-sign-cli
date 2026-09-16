@@ -1,0 +1,10 @@
+{
+  "name": "morning-sign-cli",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node morning-sign.js",
+    "task": "node morning-sign.js",
+    "schedule": "node morning-sign.js --schedule"
+  }
+}
