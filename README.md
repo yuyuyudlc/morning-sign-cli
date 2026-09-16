@@ -89,7 +89,7 @@ node morning-sign.js --token "你的Token" --point-id "点位ID"
 ```
 morning-sign-cli/
 ├── morning-sign.js         # 统一入口脚本（包含核心签到逻辑、加密算法与定时守护）
-├── open-totoro-token/      # Windows 微信进程 Token 内存扫描器 (Python Submodule)
+├── open-totoro-token/      # Windows 微信进程 Token 内存扫描器 (Python)
 │   ├── memory_scanner.py
 │   └── LICENSE
 ├── .env.example            # 本地配置文件模板
@@ -102,7 +102,7 @@ morning-sign-cli/
 
 ## 📜 鸣谢与开源协议 (Acknowledgements & License)
 
-本项目遵循 MIT 许可证。内存 Token 扫描模块使用了子模块 [open-totoro-token](open-totoro-token/):
+本项目遵循 MIT 许可证。内存 Token 扫描模块源码引用集成了 [open-totoro-token](open-totoro-token/):
 - **组件**：[open-totoro-token](open-totoro-token/) (Python 内存扫描工具)
 - **作者**：Copyright (c) 2026 [SSSSSea6](https://github.com/SSSSSea6)
 - **协议**：MIT License（详见 [open-totoro-token/LICENSE](open-totoro-token/LICENSE)）
